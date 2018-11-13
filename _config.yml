@@ -1,0 +1,49 @@
+# Site settings
+title: BSource Blog
+description: BSource Blog
+baseurl: "/Blog" # the subpath of your site, e.g. /blog
+url: "https://murilobds.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: BSource
+user_description: Consultoria em Sistemas
+user_title: BSource
+email: contato@bsource.com.br
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+disqus_username: lorem_ipsum
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: Sobre
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+
+
+
+
+  
