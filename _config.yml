@@ -47,3 +47,5 @@ exclude: ['package.json', 'src', 'node_modules']
 
 
   
+
+theme: jekyll-theme-cayman
